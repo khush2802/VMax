@@ -1,0 +1,12 @@
+{
+  // The portability boundary. Core source sees only the ES2022 standard library:
+  // no DOM (so no `window`, `console`, `setTimeout`) and no @types/node (so no `fs`,
+  // `process`, `Buffer`). Anything that needs those belongs in src/adapters.
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": []
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/adapters/**"]
+}

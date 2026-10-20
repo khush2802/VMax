@@ -1,0 +1,7 @@
+{
+  "name": "@vmax/core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable VMax core: pure TypeScript with no Node or browser APIs.",
+  "type": "module"
+}

@@ -1,0 +1,9 @@
+{
+  // Node-side code: adapters and tests. These may use Node APIs.
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": ["node"]
+  },
+  "include": ["src/adapters/**/*.ts", "test/**/*.ts"]
+}

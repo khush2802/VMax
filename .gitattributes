@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.fvecs binary
+*.ivecs binary
+*.bvecs binary
+*.tar.gz binary
